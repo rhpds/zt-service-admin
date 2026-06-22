@@ -6,6 +6,7 @@ virtualmachines:
     cores: 1
     memory: "4G"
     image_size: "40G"
+    register_satellite: false
     packages:
       - nfs-utils
       - rpcbind
