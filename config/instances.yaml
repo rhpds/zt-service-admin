@@ -7,9 +7,9 @@ virtualmachines:
     memory: "4G"
     image_size: "40G"
     register_satellite: false
-    packages:
-      - nfs-utils
-      - rpcbind
+    # packages:
+    # - nfs-utils
+    # - rpcbind
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
